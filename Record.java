@@ -17,28 +17,6 @@ public class Record {
   /** The updated time. */
   @Column(name = "updated_time", insertable = false, updatable = true)
   private Date updatedTime;
-  
-  /** The ip. */
-  @Column(name = "ip")
-  private String ip;
-
-  /**
-   * Gets the ip.
-   *
-   * @return the ip
-   */
-  public String getIp() {
-    return ip;
-  }
-
-  /**
-   * Sets the ip.
-   *
-   * @param ip the new ip
-   */
-  public void setIp(String ip) {
-    this.ip = ip;
-  }
 
   /**
    * Gets the created time.
